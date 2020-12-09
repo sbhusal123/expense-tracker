@@ -23,6 +23,11 @@ export const AddTransaction: React.FC = () => {
     const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
+        if (text.trim() === "" || amount === 0) {
+            alert("Invalid Transaction");
+            return;
+        }
+
         // Add new transaction to the global state
         addTransaction(
             {
