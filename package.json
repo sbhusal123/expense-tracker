@@ -1,6 +1,7 @@
 {
     "homepage": "https://sbhusal123.github.io/expense-tracker",
     "name": "expense-tracker",
+    "description": "Expense tracker",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
